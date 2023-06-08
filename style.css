@@ -5,7 +5,7 @@
     --white: hsl(0, 0%, 100%);
     --very-light-grayish-blue: hsl(228, 70%, 98%);
     --light-grayish-blue-1: hsl(211, 68%, 96%);
-    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --light-grayish-blue-2: hsl(205, 60%, 92%);
     --grayish-blue: hsl(219, 14%, 63%);
     --dark-grayish-blue: hsl(219, 12%, 42%);
     --very-dark-blue: hsl(224, 21%, 14%);
@@ -69,7 +69,7 @@ src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf') format('truetype
     justify-content: space-between;
     align-items: center;
 
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.5em 0;
 }
 
 .head-sub-container{
@@ -83,11 +83,11 @@ h1 {
 
 .unread-num {
     display: inline;
-    font-size: 1em;
+    font-size: .8em;
     font-weight: bold;
     color: var(--white);
     background-color: var(--blue);
-    padding: .1em .5em;
+    padding: .1em .7em;
 
     border-radius: 5px;
 

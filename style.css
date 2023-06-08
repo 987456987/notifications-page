@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*//////////////
+    Head
+//////////////*/
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.unread-num {
+    display: inline;
+}
+
+.mark-read {
+    
+}
+
+/*//////////////
+    Notification
+//////////////*/
+
+.notification-list {
+    list-style: none;
+}
+
+.notification-list-item {
+    display: flex;
+}
+
+.notification-content-flex{
+    width: 100%;
+}
+
+.notification-content-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notification-profile-img {
+    display: block;
+
+    width: 50px;
+    height: 50px;
+}
+
+.notification-text > * {
+    display: inline;
+}
+
+.unread-icon {
+    display: inline-block;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 50%;
+
+
+    background-color: red;
+}
+
+.time-past{
+    display: block;
+}

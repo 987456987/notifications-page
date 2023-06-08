@@ -25,12 +25,14 @@ body {
     place-content: center;
 
     background-color: var(--very-light-grayish-blue);
+
+    min-height: 100vh;
 }
 
 main {
     background-color: var(--white);
 
-    max-width: 800px;
+    max-width: 725px;
 
     padding: 1em 2em;
 }
@@ -77,6 +79,15 @@ src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf') format('truetype
 /*//////////////
     Notification
 //////////////*/
+
+h2 {
+    font-size: 1em;
+    padding-right: .25em;
+}
+
+a {
+    color: var
+}
 
 .notification-list {
     list-style: none;
@@ -127,6 +138,8 @@ src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf') format('truetype
 
 .time-past{
     display: block;
+
+    margin-top: .25em;
 }
 
 .notification-message {
@@ -134,6 +147,10 @@ src: url('./assets/fonts/static/PlusJakartaSans-ExtraBold.ttf') format('truetype
     border-radius: 6px;
 
     padding: 1em;
+
+    margin-top: .75em;
+
+    max-width: 550px
 }
 .notification-message:hover {
     background-color: var(--light-grayish-blue-2);
